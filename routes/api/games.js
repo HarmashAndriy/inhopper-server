@@ -42,6 +42,7 @@ router.post('/', (req, res) => {
     ram: data?.ram ? data.ram : 'unknwn',
     videocard: data?.videocard ? data.videocard : 'unknwn',
     drive: data?.drive ? data.drive : 'unknwn',
+    torrent: data?.torrent ? data.torrent : 'unknwn'
   }
 
   Book.create(newGame)

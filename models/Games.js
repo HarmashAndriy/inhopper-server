@@ -92,6 +92,10 @@ const GamesSchema = new mongoose.Schema({
   updated_date: {
     type: Date,
     default: Date.now
+  },
+  torrent: {
+    type: String,
+    default: "unknwn"
   }
 });
 
