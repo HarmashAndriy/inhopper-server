@@ -1,0 +1,4 @@
+{
+   "mongoURI":
+   "mongodb+srv://harmash:dt8ma4hz@cluster.9ga7uhx.mongodb.net/allGames?retryWrites=true&w=majority"
+}
