@@ -5,6 +5,10 @@ const cors = require('cors')
 const app = express();
 connectDB()
 
+app.get('/', (req, res) => {
+   res.send("Server listening on port 5000");
+})
+
 app.use(cors({origen: true, credentials: true}))
 app.use(express.json({ extended: false }));
 
